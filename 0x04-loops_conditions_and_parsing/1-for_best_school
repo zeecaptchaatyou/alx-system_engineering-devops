@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# write the word "Best School" to stdout 10 times
 word="Best School"
 range=11
 for (( i=1; i<range; i++)); do echo "$word" ; done
