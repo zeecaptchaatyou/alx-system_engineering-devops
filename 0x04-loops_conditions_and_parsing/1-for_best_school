@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+word="Best School"
+range=11
+for (( i=1; i<range; i++)); do echo "$word" ; done
