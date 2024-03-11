@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#write the words "Best School" 10 times using the until loop
+words="Best School"
+range=10 #number of times to print
+until [ $range -eq 0 ]; do echo "$words"
+((range--))
+done
