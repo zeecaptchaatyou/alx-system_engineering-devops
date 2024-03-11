@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# write the word "Best School" with the while loop 10 times
+word="Best School"
+range=11
+count=0
+while [ $count -lt $range ]; do echo "$word"
+((count++))
+done
