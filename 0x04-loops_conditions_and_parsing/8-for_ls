@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Iterate over the files in the current directory
 for file in *; do
 # Checks if the file is not a hidden file
